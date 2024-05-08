@@ -1,4 +1,4 @@
-output "asg_name" {
-  value       = aws_autoscaling_group.example.name
-  description = "The name of the Auto Scaling Group"
+output "playerscard" {
+  value       = module.players.cards
+  description = "The cards of players"
 }
