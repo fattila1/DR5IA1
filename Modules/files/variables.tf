@@ -5,7 +5,7 @@ variable "Name" {
 
 variable "Number" {
   description = "The number of player"
-  type        = string
+  type        = number
 }
 
 variable "Team" {
