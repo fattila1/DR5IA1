@@ -1,14 +1,17 @@
-variable "Name" {
-  description = "The name of player"
-  type        = string
-}
-
-variable "Number" {
-  description = "The number of player"
+variable "file_count" {
+  description = "Number of files"
   type        = number
+  default     = 1
 }
 
-variable "Team" {
-  description = "The team's name, where the player is playing"
+variable "file_prefix" {
+  description = "Prefix"
   type        = string
+  default     = "file"
+}
+
+variable "file_content" {
+  description = "Content"
+  type        = string
+  default     = "Something something"
 }
