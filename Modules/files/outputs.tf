@@ -1,4 +1,3 @@
-output "playerscard" {
-  value       = module.players.cards
-  description = "The cards of players"
+output "filenames" {
+  value = [for f in local_file.file : f.filename]
 }
