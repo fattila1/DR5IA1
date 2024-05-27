@@ -46,7 +46,7 @@ variable "answer_7" {
 }
 
 module "write" {
-  source   = "./modules/write"
+  source   = "./Modules/write"
   answer_1 = var.answer_1
   answer_2 = var.answer_2
   answer_3 = var.answer_3
